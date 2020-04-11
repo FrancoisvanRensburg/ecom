@@ -1,0 +1,10 @@
+{
+  "editor.fontLigatures": null,
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.preferences": {},
+  "emmet.syntaxProfiles": {},
+  "emmet.variables": {}
+}
