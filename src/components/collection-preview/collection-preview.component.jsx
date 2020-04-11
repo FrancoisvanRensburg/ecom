@@ -10,9 +10,9 @@ const CollectionPreview = ({ title, items }) => (
       {/* end up mapping over the items */}
       {items
         .filter((item, idx) => idx < 4)
-        .map(({ id, ...otherItemProps }) => (
+        .map((item) => (
           // spread out div to have the correct fields from the data file
-          <CollectionItem key={id} {...otherItemProps} />
+          <CollectionItem key={item.id} item={item} />
         ))}
     </div>
   </div>
